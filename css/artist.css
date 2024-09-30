@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap');
+
+body, html {
+    background-color: #081720;
+    margin: 0; 
+    height: 100%; 
+}
+b {
+    color: rgb(161, 244, 255);
+ }
+
+ /* header */
+ #header {
+    background-color: rgba(255, 0, 0, 0);
+    width: 100%;
+    height: 40%;
+    background-image: url("../img/0004.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 5px 3px 20px rgba(0, 0, 0, 0.712);
+}
+#artist-title {
+    color: white;
+    font-family: "League Gothic", sans-serif;
+    font-size: 6em;
+    text-align: center;
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+    text-shadow: 2px 3px 8px #0000008e;
+    }
+
+/* main content */
+#main-content { 
+    padding-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-row-gap: 0px;
+    align-items: center;
+    padding-bottom: 5%;
+    } 
+#edward-photo {
+    height: 45vh;
+    box-shadow: 3px 3px 15px 3px #00000077;
+    margin-left: 50%;
+}
+#edward-info {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9em;
+    font-weight: 200;
+    line-height: 150%;
+    width: 50%;
+    padding-right: 10%;
+    text-align: left;
+}
+
+
+/* painter's gallery  */
+#line{
+    width: 55%;
+    height: auto;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    }
+
+h2 {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 1.3em;
+    text-align: center;
+    }
+
+#gallery {
+    padding-top: 7vh;
+    background-color: rgba(128, 0, 128, 0.363);
+    width:100%;
+    height:65%;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.445);
+    color:white;
+    width: 100%;
+    height: 4%;
+    }
+#by-nara {
+    font-family: "Inter", sans-serif;
+    font-size: 0.8em;
+    color: rgb(161, 244, 255);        
+    }
+
+#bynara {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    }
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 7px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #11353bd7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #5e919e;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #265d6b;
+  }

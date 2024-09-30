@@ -1,0 +1,31 @@
+ul > li {  
+    color: white;
+    font-size: 1.3em;
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    display: inline-block;
+    align-items: center;
+    margin: 1vw; 
+    position: relative;
+}
+#navbar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 3vh;
+    padding-right: 5vw; 
+    display: flex; 
+    justify-content: center; 
+}
+#navbar a {
+    transition: color 0.3s ease;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.658);
+}
+#navbar a:hover {
+    color: rgb(172, 255, 248); 
+}
+#navbar a.active {
+    font-weight: bold; 
+    border-bottom: 2px solid rgb(255, 255, 255); 
+    padding-bottom: 3px; 
+}
