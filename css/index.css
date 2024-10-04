@@ -22,6 +22,7 @@ body, html {
     font-family: "Inter", sans-serif;
     font-size:  2em; 
     font-weight: 200;
+    margin: 0;
 }
 #title-big {
     color: white;

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us • The art of Edward Robert Hughes</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/contact.css">
+    <link rel="stylesheet" href="css/navbar.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artist.html">The Artist</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="row">
+        <div class="column" id="column-image"></div>
+        <div class="column" id="column-form">
+            <div class="form-container">
+                <h1>CONTACT US</h1>
+                <p>
+                    <b>Do you have questions, suggestions, or want to learn more about Hughes's work?</b><br>
+We're here to listen! Please fill out the form below and send us your message. Whether it's to discuss the artworks, Hughes's artistic legacy, or any other related topic, we’d be happy to chat with you.
+                </p>
+                <div id="line"></div>
+            </div>
+            <div class="container">
+                <form action="/" autocomplete="off">
+                  <label for="fname" class="title-form">Name</label>
+                  <input type="text" id="fname" name="firstname" placeholder="Your name..." required>
+              
+                  <label for="lemail" class="title-form">Email</label>
+                  <input type="text" id="lname" name="lastname" placeholder="Your email..." required>
+              
+                  <label for="country" class="title-form">Country</label>
+                  <select id="country" name="country">
+                    <option value="brazil">Brazil</option>
+                    <option value="spain">Spain</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                    <option value="other">Other country</option>
+                  </select>
+              
+                  <label for="subject" class="title-form">Subject</label>
+                  <textarea id="subject" name="subject" placeholder="Write something..." required></textarea>
+              
+                  <div class="div-botao">
+                  <input type="submit" value="SUBMIT" class="submit">
+                </div>
+                </form>
+              </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+</body>
+</html>
+

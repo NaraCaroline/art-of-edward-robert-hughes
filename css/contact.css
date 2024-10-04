@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Gothic&display=swap');
+
+body {
+    background-color: #081720;
+    margin: 0; 
+    height: 100%; 
+    overflow: hidden;
+}
+
+p {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(161, 244, 255);
+    font-family: "Inter", sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 3vh;
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    height: 100vh; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+#column-image {
+    background-image: url('../img/contact.png'); 
+    background-size: cover; 
+    background-position: center; 
+    height: 100%; 
+}
+
+#column-form {
+    padding: 20px; 
+    width: 80%;
+}
+
+.form-container {
+    width: 75%; 
+}
+
+#line{
+    width: 100%;
+    padding-top:  3vh;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    margin: 0 auto;
+    }
+
+input[type=text], select, textarea {
+    font-family: "Inter", sans-serif;
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #cccccc88;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 2.7vh;
+    resize: vertical;
+    background-color: #cee0eb;
+    }
+    
+input[type=submit] {
+    background-color: rgb(105, 182, 192);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    }
+    
+input[type=submit]:hover {
+    background-color: rgb(48, 133, 148);
+    }
+    
+.container {
+    margin-top: 3vh;
+    border-radius: 5px;
+    background-color: #f2f2f200;
+    padding: 20px;
+    width: 75%;
+    }
+
+#subject {
+    height: 12.5vh;
+    }
+
+.title-form {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: left;
+    }
+
+.div-botao {
+    margin-right: 0;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.submit {
+    width: 20%;
+}
